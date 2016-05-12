@@ -1,1 +1,0 @@
-(define-package "ahk-mode" "20160214.1722" "Major mode for editing AHK (AutoHotkey and AutoHotkey_L)" '((emacs "24.3") (cl-lib "0.5")) :url "https://github.com/ralesi/ahk-mode" :keywords '("ahk" "autohotkey" "hotkey" "keyboard shortcut" "automation"))
