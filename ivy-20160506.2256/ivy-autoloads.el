@@ -1,15 +1,57 @@
-;;; swiper-autoloads.el --- automatically extracted autoloads
+;;; ivy-autoloads.el --- automatically extracted autoloads
 ;;
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "ivy" "ivy.el" (22250 53607 0 0))
+;;;### (autoloads nil "ivy" "ivy.el" (22324 44220 0 0))
 ;;; Generated autoloads from ivy.el
 
 (autoload 'ivy-resume "ivy" "\
 Resume the last completion session.
 
 \(fn)" t nil)
+
+(autoload 'ivy-read "ivy" "\
+Read a string in the minibuffer, with completion.
+
+PROMPT is a format string, normally ending in a colon and a
+space; %d anywhere in the string is replaced by the current
+number of matching candidates. For the literal % character,
+escape it with %%. See also `ivy-count-format'.
+
+COLLECTION is either a list of strings, a function, an alist, or
+a hash table.
+
+If INITIAL-INPUT is not nil, then insert that input in the
+minibuffer initially.
+
+KEYMAP is composed with `ivy-minibuffer-map'.
+
+If PRESELECT is not nil, then select the corresponding candidate
+out of the ones that match the INITIAL-INPUT.
+
+UPDATE-FN is called each time the current candidate(s) is changed.
+
+When SORT is t, use `ivy-sort-functions-alist' for sorting.
+
+ACTION is a lambda function to call after selecting a result. It
+takes a single string argument.
+
+UNWIND is a lambda function to call before exiting.
+
+RE-BUILDER is a lambda function to call to transform text into a
+regex pattern.
+
+MATCHER is to override matching.
+
+DYNAMIC-COLLECTION is a boolean to specify if the list of
+candidates is updated after each input by calling COLLECTION.
+
+CALLER is a symbol to uniquely identify the caller to `ivy-read'.
+It is used, along with COLLECTION, to determine which
+customizations apply to the current completion session.
+
+\(fn PROMPT COLLECTION &key PREDICATE REQUIRE-MATCH INITIAL-INPUT HISTORY PRESELECT KEYMAP UPDATE-FN SORT ACTION UNWIND RE-BUILDER MATCHER DYNAMIC-COLLECTION CALLER)" nil nil)
 
 (autoload 'ivy-completing-read "ivy" "\
 Read a string in the minibuffer, with completion.
@@ -68,29 +110,8 @@ Find a file on `recentf-list'.
 
 ;;;***
 
-;;;### (autoloads nil "swiper" "swiper.el" (22250 53607 0 0))
-;;; Generated autoloads from swiper.el
-
-(autoload 'swiper-avy "swiper" "\
-Jump to one of the current swiper candidates.
-
-\(fn)" t nil)
-
-(autoload 'swiper-mc "swiper" "\
-
-
-\(fn)" t nil)
-
-(autoload 'swiper "swiper" "\
-`isearch' with an overview.
-When non-nil, INITIAL-INPUT is the initial search pattern.
-
-\(fn &optional INITIAL-INPUT)" t nil)
-
-;;;***
-
-;;;### (autoloads nil nil ("colir.el" "ivy-hydra.el" "swiper-pkg.el")
-;;;;;;  (22250 53607 892000 0))
+;;;### (autoloads nil nil ("colir.el" "ivy-hydra.el" "ivy-pkg.el")
+;;;;;;  (22324 44220 398000 0))
 
 ;;;***
 
@@ -99,4 +120,4 @@ When non-nil, INITIAL-INPUT is the initial search pattern.
 ;; no-byte-compile: t
 ;; no-update-autoloads: t
 ;; End:
-;;; swiper-autoloads.el ends here
+;;; ivy-autoloads.el ends here

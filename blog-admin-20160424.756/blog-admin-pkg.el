@@ -1,4 +1,4 @@
-(define-package "blog-admin" "20160325.2310" "Blog admin for emacs with hexo/org-page supported"
+(define-package "blog-admin" "20160424.756" "Blog admin for emacs with hexo/org-page supported"
   '((org "8.0")
     (ctable "0.1.1")
     (s "1.10.0")

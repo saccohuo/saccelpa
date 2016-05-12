@@ -4,8 +4,9 @@
 
 ;; Author: Oleh Krehel <ohwoeowho@gmail.com>
 ;; URL: https://github.com/abo-abo/swiper
-;; Version: 0.7.0
-;; Package-Requires: ((emacs "24.1"))
+;; Package-Version: 20160510.2311
+;; Version: 0.8.0
+;; Package-Requires: ((emacs "24.1") (ivy "0.8.0"))
 ;; Keywords: matching
 
 ;; This file is part of GNU Emacs.
@@ -94,7 +95,13 @@
       (user-error "Should only be called in the minibuffer through `swiper-map'")
     (let* ((enable-recursive-minibuffers t)
            (from (ivy--regex ivy-text))
-           (to (query-replace-read-to from "Query replace" t)))
+           (to (minibuffer-with-setup-hook
+                   (lambda ()
+                     (setq minibuffer-default
+                           (if (string-match "\\`\\\\_<\\(.*\\)\\\\_>\\'" ivy-text)
+                               (match-string 1 ivy-text)
+                             ivy-text)))
+                 (read-from-minibuffer (format "Query replace %s with: " from)))))
       (swiper--cleanup)
       (ivy-exit-with-action
        (lambda (_)
@@ -167,11 +174,13 @@
 (declare-function mc/create-fake-cursor-at-point "ext:multiple-cursors-core")
 (declare-function multiple-cursors-mode "ext:multiple-cursors-core")
 
-;;;###autoload
 (defun swiper-mc ()
+  "Create a fake cursor for each `swiper' candidate."
   (interactive)
   (unless (require 'multiple-cursors nil t)
     (error "multiple-cursors isn't installed"))
+  (unless (window-minibuffer-p)
+    (error "Call me only from `swiper'"))
   (let ((cands (nreverse ivy--old-cands)))
     (unless (string= ivy-text "")
       (ivy-exit-with-action
@@ -294,8 +303,7 @@ numbers; replaces calculating the width from buffer line count."
                            (buffer-substring
                             (point)
                             (line-end-position)))))))
-              (when (eq major-mode 'twittering-mode)
-                (remove-text-properties 0 (length str) '(field) str))
+              (remove-text-properties 0 (length str) '(field) str)
               (put-text-property 0 1 'display
                                  (format swiper--format-spec
                                          (cl-incf line-number))
@@ -405,7 +413,6 @@ line numbers. For the buffer, use `ivy--regex' instead."
 (defun swiper--ivy (candidates &optional initial-input)
   "Select one of CANDIDATES and move there.
 When non-nil, INITIAL-INPUT is the initial search pattern."
-  (interactive)
   (swiper--init)
   (setq swiper-invocation-face
         (plist-get (text-properties-at (point)) 'face))
@@ -574,6 +581,10 @@ WND, when specified is the window."
                     (overlay-put overlay 'priority i)))
                 (cl-incf i)))))))))
 
+(defcustom swiper-action-recenter nil
+  "When non-nil, recenter after exiting `swiper'."
+  :type 'boolean)
+
 (defun swiper--action (x)
   "Goto line X."
   (let ((ln (1- (read (or (get-text-property 0 'display x)
@@ -593,6 +604,8 @@ WND, when specified is the window."
                  ln)
         (re-search-forward re (line-end-position) t)
         (swiper--ensure-visible)
+        (when swiper-action-recenter
+          (recenter))
         (when (/= (point) swiper--opoint)
           (unless (and transient-mark-mode mark-active)
             (when (eq ivy-exit 'done)
@@ -670,7 +683,8 @@ Run `swiper' for those buffers."
                      (1- len) len 'display
                      (concat
                       (make-string
-                       (- ww (string-width s) (length (buffer-name)) 3)
+                       (max 0
+                            (- ww (string-width s) (length (buffer-name)) 3))
                        ?\ )
                       (buffer-name))
                      s)

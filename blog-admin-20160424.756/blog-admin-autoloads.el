@@ -5,7 +5,7 @@
 
 ;;;### (autoloads nil nil ("blog-admin-backend-hexo.el" "blog-admin-backend-org-page.el"
 ;;;;;;  "blog-admin-backend.el" "blog-admin-pkg.el" "blog-admin.el")
-;;;;;;  (22294 15343 25000 0))
+;;;;;;  (22302 14730 948000 0))
 
 ;;;***
 
