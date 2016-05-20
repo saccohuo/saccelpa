@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "powerline" "powerline.el" (22325 15832 0 0))
+;;;### (autoloads nil "powerline" "powerline.el" (22334 33676 0 0))
 ;;; Generated autoloads from powerline.el
 
 (autoload 'powerline-hud "powerline" "\
@@ -35,19 +35,19 @@ Render STR as mode-line data using FACE and optionally PAD import on left (l) or
 Return empty space using FACE and leaving RESERVE space on the right.
 
 \(fn FACE RESERVE)" nil nil)
- (autoload 'powerline-major-mode "powerline")
- (autoload 'powerline-minor-modes "powerline")
- (autoload 'powerline-narrow "powerline")
- (autoload 'powerline-vc "powerline")
- (autoload 'powerline-buffer-size "powerline")
- (autoload 'powerline-buffer-id "powerline")
- (autoload 'powerline-process "powerline")
- (autoload 'powerline-selected-window-active "powerline")
+(autoload 'powerline-major-mode "powerline")
+(autoload 'powerline-minor-modes "powerline")
+(autoload 'powerline-narrow "powerline")
+(autoload 'powerline-vc "powerline")
+(autoload 'powerline-buffer-size "powerline")
+(autoload 'powerline-buffer-id "powerline")
+(autoload 'powerline-process "powerline")
+(autoload 'powerline-selected-window-active "powerline")
 
 ;;;***
 
-;;;### (autoloads nil "powerline-themes" "powerline-themes.el" (22325
-;;;;;;  15832 0 0))
+;;;### (autoloads nil "powerline-themes" "powerline-themes.el" (22334
+;;;;;;  33676 0 0))
 ;;; Generated autoloads from powerline-themes.el
 
 (autoload 'powerline-default-theme "powerline-themes" "\
@@ -73,7 +73,7 @@ Setup a nano-like mode-line.
 ;;;***
 
 ;;;### (autoloads nil nil ("powerline-pkg.el" "powerline-separators.el")
-;;;;;;  (22325 15833 39000 0))
+;;;;;;  (22334 33676 603000 0))
 
 ;;;***
 

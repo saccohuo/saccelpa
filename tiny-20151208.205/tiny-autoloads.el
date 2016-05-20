@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "tiny" "tiny.el" (22287 21438 0 0))
+;;;### (autoloads nil "tiny" "tiny.el" (22334 33649 0 0))
 ;;; Generated autoloads from tiny.el
 
 (autoload 'tiny-expand "tiny" "\

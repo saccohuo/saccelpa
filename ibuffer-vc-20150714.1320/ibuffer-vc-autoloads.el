@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "ibuffer-vc" "ibuffer-vc.el" (22206 52944 0
+;;;### (autoloads nil "ibuffer-vc" "ibuffer-vc.el" (22334 33006 0
 ;;;;;;  0))
 ;;; Generated autoloads from ibuffer-vc.el
 

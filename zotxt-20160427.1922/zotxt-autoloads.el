@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "org-zotxt" "org-zotxt.el" (22324 50611 0 0))
+;;;### (autoloads nil "org-zotxt" "org-zotxt.el" (22334 34594 0 0))
 ;;; Generated autoloads from org-zotxt.el
 
 (autoload 'org-zotxt-mode "org-zotxt" "\
@@ -19,7 +19,7 @@ org-mode document.
 
 ;;;***
 
-;;;### (autoloads nil "zotxt" "zotxt.el" (22324 50611 0 0))
+;;;### (autoloads nil "zotxt" "zotxt.el" (22334 34595 0 0))
 ;;; Generated autoloads from zotxt.el
 
 (autoload 'zotxt-easykey-mode "zotxt" "\
@@ -35,7 +35,7 @@ including completion.
 
 ;;;***
 
-;;;### (autoloads nil nil ("zotxt-pkg.el") (22324 50611 971000 0))
+;;;### (autoloads nil nil ("zotxt-pkg.el") (22334 34595 127000 0))
 
 ;;;***
 

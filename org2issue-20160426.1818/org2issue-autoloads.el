@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "org2issue" "org2issue.el" (22324 48404 0 0))
+;;;### (autoloads nil "org2issue" "org2issue.el" (22334 33818 0 0))
 ;;; Generated autoloads from org2issue.el
 
 (autoload 'org2issue "org2issue" "\

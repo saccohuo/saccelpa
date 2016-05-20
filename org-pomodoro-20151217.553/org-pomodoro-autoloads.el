@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "org-pomodoro" "org-pomodoro.el" (22206 53057
+;;;### (autoloads nil "org-pomodoro" "org-pomodoro.el" (22334 33420
 ;;;;;;  0 0))
 ;;; Generated autoloads from org-pomodoro.el
 
@@ -19,7 +19,7 @@ kill the current timer, this may be a break or a running pomodoro.
 ;;;***
 
 ;;;### (autoloads nil nil ("org-pomodoro-pidgin.el" "org-pomodoro-pkg.el")
-;;;;;;  (22206 53057 503000 0))
+;;;;;;  (22334 33420 677000 0))
 
 ;;;***
 

@@ -4,7 +4,7 @@
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
 ;;;### (autoloads nil "helm-github-stars" "helm-github-stars.el"
-;;;;;;  (22276 44882 0 0))
+;;;;;;  (22334 33822 0 0))
 ;;; Generated autoloads from helm-github-stars.el
 
 (autoload 'helm-github-stars "helm-github-stars" "\

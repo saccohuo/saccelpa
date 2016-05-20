@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil nil ("chinese-fonts-setup.el") (22303 4079
-;;;;;;  942000 0))
+;;;### (autoloads nil nil ("chinese-fonts-setup.el") (22334 33626
+;;;;;;  933000 0))
 
 ;;;***
 

@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "elein" "elein.el" (22206 53132 0 0))
+;;;### (autoloads nil "elein" "elein.el" (22334 33594 0 0))
 ;;; Generated autoloads from elein.el
 
 (autoload 'elein-swank "elein" "\
