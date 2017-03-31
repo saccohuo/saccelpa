@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil nil ("ox-latex-chinese.el") (22685 28689 912000
+;;;### (autoloads nil nil ("ox-latex-chinese.el") (22717 16387 660000
 ;;;;;;  0))
 
 ;;;***

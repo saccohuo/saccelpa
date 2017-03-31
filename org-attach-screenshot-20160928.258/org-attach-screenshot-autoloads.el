@@ -4,7 +4,7 @@
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
 ;;;### (autoloads nil "org-attach-screenshot" "org-attach-screenshot.el"
-;;;;;;  (22548 16836 0 0))
+;;;;;;  (22717 15737 0 0))
 ;;; Generated autoloads from org-attach-screenshot.el
 
 (autoload 'org-attach-screenshot "org-attach-screenshot" "\

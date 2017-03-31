@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "cdlatex" "cdlatex.el" (22392 48708 0 0))
+;;;### (autoloads nil "cdlatex" "cdlatex.el" (22717 16390 0 0))
 ;;; Generated autoloads from cdlatex.el
 
 (autoload 'turn-on-cdlatex "cdlatex" "\

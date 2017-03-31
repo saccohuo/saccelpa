@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "zotelo" "zotelo.el" (22371 62083 0 0))
+;;;### (autoloads nil "zotelo" "zotelo.el" (22717 16385 0 0))
 ;;; Generated autoloads from zotelo.el
 
 (autoload 'zotelo-minor-mode "zotelo" "\

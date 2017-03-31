@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil nil ("flycheck-ledger.el") (22334 33612 578000
+;;;### (autoloads nil nil ("flycheck-ledger.el") (22717 15695 243000
 ;;;;;;  0))
 
 ;;;***

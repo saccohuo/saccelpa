@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "ahk-mode" "ahk-mode.el" (22382 19134 0 0))
+;;;### (autoloads nil "ahk-mode" "ahk-mode.el" (22717 16348 0 0))
 ;;; Generated autoloads from ahk-mode.el
 
 (add-to-list 'auto-mode-alist '("\\.ahk\\'" . ahk-mode))

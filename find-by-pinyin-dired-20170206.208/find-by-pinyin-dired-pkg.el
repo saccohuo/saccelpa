@@ -1,0 +1,1 @@
+(define-package "find-by-pinyin-dired" "20170206.208" "Find file by first PinYin character of Chinese Hanzi" '((pinyinlib "0.1.0")) :url "http://github.com/redguardtoo/find-by-pinyin-dired" :keywords '("hanzi" "chinese" "dired" "find" "file" "pinyin"))
