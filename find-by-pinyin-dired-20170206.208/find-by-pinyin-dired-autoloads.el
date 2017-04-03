@@ -4,7 +4,7 @@
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
 ;;;### (autoloads nil "find-by-pinyin-dired" "find-by-pinyin-dired.el"
-;;;;;;  (22717 16346 0 0))
+;;;;;;  (22750 3103 0 0))
 ;;; Generated autoloads from find-by-pinyin-dired.el
 
 (autoload 'find-by-pinyin-dired "find-by-pinyin-dired" "\

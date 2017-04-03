@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "cheatsheet" "cheatsheet.el" (22717 16409 0
+;;;### (autoloads nil "cheatsheet" "cheatsheet.el" (22750 3221 0
 ;;;;;;  0))
 ;;; Generated autoloads from cheatsheet.el
 

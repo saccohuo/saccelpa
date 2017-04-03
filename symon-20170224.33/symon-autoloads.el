@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "symon" "symon.el" (22717 16418 0 0))
+;;;### (autoloads nil "symon" "symon.el" (22750 3242 0 0))
 ;;; Generated autoloads from symon.el
 
 (defvar symon-mode nil "\

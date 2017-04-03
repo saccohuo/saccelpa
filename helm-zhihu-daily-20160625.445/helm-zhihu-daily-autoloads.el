@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "helm-zhihu-daily" "helm-zhihu-daily.el" (22717
-;;;;;;  16425 0 0))
+;;;### (autoloads nil "helm-zhihu-daily" "helm-zhihu-daily.el" (22750
+;;;;;;  3258 0 0))
 ;;; Generated autoloads from helm-zhihu-daily.el
 
 (autoload 'helm-zhihu-daily "helm-zhihu-daily" "\

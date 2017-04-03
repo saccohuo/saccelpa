@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "diff-hl" "diff-hl.el" (22717 14967 0 0))
+;;;### (autoloads nil "diff-hl" "diff-hl.el" (22750 1790 0 0))
 ;;; Generated autoloads from diff-hl.el
 
 (autoload 'diff-hl-mode "diff-hl" "\
@@ -39,7 +39,7 @@ See `diff-hl-mode' for more information on Diff-Hl mode.
 
 ;;;***
 
-;;;### (autoloads nil "diff-hl-amend" "diff-hl-amend.el" (22717 14967
+;;;### (autoloads nil "diff-hl-amend" "diff-hl-amend.el" (22750 1790
 ;;;;;;  0 0))
 ;;; Generated autoloads from diff-hl-amend.el
 
@@ -74,7 +74,7 @@ See `diff-hl-amend-mode' for more information on Diff-Hl-Amend mode.
 
 ;;;***
 
-;;;### (autoloads nil "diff-hl-dired" "diff-hl-dired.el" (22717 14967
+;;;### (autoloads nil "diff-hl-dired" "diff-hl-dired.el" (22750 1790
 ;;;;;;  0 0))
 ;;; Generated autoloads from diff-hl-dired.el
 
@@ -90,8 +90,8 @@ Toggle VC diff highlighting on the side of a Dired window.
 
 ;;;***
 
-;;;### (autoloads nil "diff-hl-flydiff" "diff-hl-flydiff.el" (22717
-;;;;;;  14967 0 0))
+;;;### (autoloads nil "diff-hl-flydiff" "diff-hl-flydiff.el" (22750
+;;;;;;  1790 0 0))
 ;;; Generated autoloads from diff-hl-flydiff.el
 
 (defvar diff-hl-flydiff-mode nil "\
@@ -110,8 +110,8 @@ Highlight diffs on-the-fly
 
 ;;;***
 
-;;;### (autoloads nil "diff-hl-margin" "diff-hl-margin.el" (22717
-;;;;;;  14967 0 0))
+;;;### (autoloads nil "diff-hl-margin" "diff-hl-margin.el" (22750
+;;;;;;  1790 0 0))
 ;;; Generated autoloads from diff-hl-margin.el
 
 (defvar diff-hl-margin-mode nil "\
@@ -130,8 +130,7 @@ Toggle displaying `diff-hl-mode' highlights on the margin.
 
 ;;;***
 
-;;;### (autoloads nil nil ("diff-hl-pkg.el") (22717 14967 402000
-;;;;;;  0))
+;;;### (autoloads nil nil ("diff-hl-pkg.el") (22750 1790 695000 0))
 
 ;;;***
 

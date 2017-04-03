@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "immortal-scratch" "immortal-scratch.el" (22748
-;;;;;;  35167 0 0))
+;;;### (autoloads nil "immortal-scratch" "immortal-scratch.el" (22750
+;;;;;;  2488 0 0))
 ;;; Generated autoloads from immortal-scratch.el
 
 (defvar immortal-scratch-mode nil "\

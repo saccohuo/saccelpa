@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil nil ("project-local-variables.el") (22717 14945
-;;;;;;  354000 0))
+;;;### (autoloads nil nil ("project-local-variables.el") (22750 1755
+;;;;;;  553000 0))
 
 ;;;***
 

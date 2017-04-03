@@ -4,7 +4,7 @@
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
 ;;;### (autoloads nil "chinese-pyim-basedict" "chinese-pyim-basedict.el"
-;;;;;;  (22717 16335 0 0))
+;;;;;;  (22750 3090 0 0))
 ;;; Generated autoloads from chinese-pyim-basedict.el
 
 (autoload 'chinese-pyim-basedict-enable "chinese-pyim-basedict" "\
@@ -14,8 +14,8 @@ Add basedict to chinese-pyim.
 
 ;;;***
 
-;;;### (autoloads nil nil ("chinese-pyim-basedict-pkg.el") (22717
-;;;;;;  16335 43000 0))
+;;;### (autoloads nil nil ("chinese-pyim-basedict-pkg.el") (22750
+;;;;;;  3090 697000 0))
 
 ;;;***
 

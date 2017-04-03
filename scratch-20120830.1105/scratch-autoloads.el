@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "scratch" "scratch.el" (22717 14947 0 0))
+;;;### (autoloads nil "scratch" "scratch.el" (22750 1760 0 0))
 ;;; Generated autoloads from scratch.el
 
 (autoload 'scratch "scratch" "\

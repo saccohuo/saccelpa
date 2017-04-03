@@ -3,8 +3,8 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "highlight-quoted" "highlight-quoted.el" (22717
-;;;;;;  15648 0 0))
+;;;### (autoloads nil "highlight-quoted" "highlight-quoted.el" (22750
+;;;;;;  2509 0 0))
 ;;; Generated autoloads from highlight-quoted.el
 
 (autoload 'highlight-quoted-mode "highlight-quoted" "\

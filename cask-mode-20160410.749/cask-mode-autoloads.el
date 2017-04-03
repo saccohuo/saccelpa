@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "cask-mode" "cask-mode.el" (22748 35170 0 0))
+;;;### (autoloads nil "cask-mode" "cask-mode.el" (22750 2521 0 0))
 ;;; Generated autoloads from cask-mode.el
 
 (autoload 'cask-mode "cask-mode" "\

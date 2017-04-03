@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "ivy-historian" "ivy-historian.el" (22748 34411
+;;;### (autoloads nil "ivy-historian" "ivy-historian.el" (22750 1836
 ;;;;;;  0 0))
 ;;; Generated autoloads from ivy-historian.el
 

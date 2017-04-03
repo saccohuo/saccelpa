@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "habitica" "habitica.el" (22717 15797 0 0))
+;;;### (autoloads nil "habitica" "habitica.el" (22750 2762 0 0))
 ;;; Generated autoloads from habitica.el
 
 (autoload 'habitica-tasks "habitica" "\

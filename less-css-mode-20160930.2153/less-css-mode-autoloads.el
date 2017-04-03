@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "less-css-mode" "less-css-mode.el" (22717 15559
+;;;### (autoloads nil "less-css-mode" "less-css-mode.el" (22750 2289
 ;;;;;;  0 0))
 ;;; Generated autoloads from less-css-mode.el
 

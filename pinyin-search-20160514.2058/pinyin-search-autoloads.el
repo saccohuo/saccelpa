@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "pinyin-search" "pinyin-search.el" (22717 16344
+;;;### (autoloads nil "pinyin-search" "pinyin-search.el" (22750 3099
 ;;;;;;  0 0))
 ;;; Generated autoloads from pinyin-search.el
 

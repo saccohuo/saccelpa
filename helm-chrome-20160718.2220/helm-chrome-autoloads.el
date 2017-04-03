@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "helm-chrome" "helm-chrome.el" (22717 16375
+;;;### (autoloads nil "helm-chrome" "helm-chrome.el" (22750 3162
 ;;;;;;  0 0))
 ;;; Generated autoloads from helm-chrome.el
 

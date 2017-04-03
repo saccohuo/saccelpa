@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "org-cliplink" "org-cliplink.el" (22748 34434
+;;;### (autoloads nil "org-cliplink" "org-cliplink.el" (22750 2189
 ;;;;;;  0 0))
 ;;; Generated autoloads from org-cliplink.el
 
@@ -40,7 +40,7 @@ support cURL transport.
 ;;;***
 
 ;;;### (autoloads nil nil ("org-cliplink-pkg.el" "org-cliplink-string.el"
-;;;;;;  "org-cliplink-transport.el") (22748 34434 647000 0))
+;;;;;;  "org-cliplink-transport.el") (22750 2189 145000 0))
 
 ;;;***
 

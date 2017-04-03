@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "try" "try.el" (22717 15711 0 0))
+;;;### (autoloads nil "try" "try.el" (22750 2642 0 0))
 ;;; Generated autoloads from try.el
 
 (autoload 'try-and-refresh "try" "\

@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "hexo" "hexo.el" (22721 10714 0 0))
+;;;### (autoloads nil "hexo" "hexo.el" (22750 3136 0 0))
 ;;; Generated autoloads from hexo.el
 
 (autoload 'hexo "hexo" "\

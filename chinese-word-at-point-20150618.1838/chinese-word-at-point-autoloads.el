@@ -4,7 +4,7 @@
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
 ;;;### (autoloads nil "chinese-word-at-point" "chinese-word-at-point.el"
-;;;;;;  (22717 16323 0 0))
+;;;;;;  (22750 3078 0 0))
 ;;; Generated autoloads from chinese-word-at-point.el
 
 (autoload 'chinese-word-at-point "chinese-word-at-point" "\

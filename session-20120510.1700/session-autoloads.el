@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "session" "session.el" (22717 15009 0 0))
+;;;### (autoloads nil "session" "session.el" (22750 1861 0 0))
 ;;; Generated autoloads from session.el
 
 (autoload 'session-jump-to-last-change "session" "\

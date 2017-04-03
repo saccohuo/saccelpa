@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "hayoo" "hayoo.el" (22748 35164 0 0))
+;;;### (autoloads nil "hayoo" "hayoo.el" (22750 2453 0 0))
 ;;; Generated autoloads from hayoo.el
 
 (autoload 'hayoo-query "hayoo" "\

@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "disable-mouse" "disable-mouse.el" (22748 34404
+;;;### (autoloads nil "disable-mouse" "disable-mouse.el" (22750 1777
 ;;;;;;  0 0))
 ;;; Generated autoloads from disable-mouse.el
 

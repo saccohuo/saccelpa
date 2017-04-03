@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "move-dup" "move-dup.el" (22717 15048 0 0))
+;;;### (autoloads nil "move-dup" "move-dup.el" (22750 1911 0 0))
 ;;; Generated autoloads from move-dup.el
 
 (autoload 'md/move-region "move-dup" "\

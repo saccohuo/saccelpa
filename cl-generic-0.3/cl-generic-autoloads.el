@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "cl-generic" "cl-generic.el" (22717 15610 0
+;;;### (autoloads nil "cl-generic" "cl-generic.el" (22750 2394 0
 ;;;;;;  0))
 ;;; Generated autoloads from cl-generic.el
  (let ((d (file-name-directory #$)))

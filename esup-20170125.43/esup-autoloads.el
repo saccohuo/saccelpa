@@ -3,7 +3,7 @@
 ;;; Code:
 (add-to-list 'load-path (or (file-name-directory #$) (car load-path)))
 
-;;;### (autoloads nil "esup" "esup.el" (22717 16371 0 0))
+;;;### (autoloads nil "esup" "esup.el" (22750 3152 0 0))
 ;;; Generated autoloads from esup.el
 
 (autoload 'esup "esup" "\
@@ -14,8 +14,8 @@ If INIT-FILE is non-nil, profile that instead of USER-INIT-FILE.
 
 ;;;***
 
-;;;### (autoloads nil nil ("esup-child.el" "esup-pkg.el") (22717
-;;;;;;  16371 402000 0))
+;;;### (autoloads nil nil ("esup-child.el" "esup-pkg.el") (22750
+;;;;;;  3152 379000 0))
 
 ;;;***
 
